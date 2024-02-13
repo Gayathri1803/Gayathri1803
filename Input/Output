@@ -1,4 +1,4 @@
-Hello World
+//Hello World
 #include<iostream>
 using namespace std;
 int main()
@@ -6,3 +6,186 @@ int main()
     cout<<"Hello World...!";
     return 0;
 }
+
+//Hello World with New Line
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello World...!\nHello World...!";
+}
+
+//Hello World with Tab
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello\tWorld...!";
+    return 0;
+}
+
+//Character Input
+#include<iostream>
+using namespace std;
+int main()
+{
+    char a;
+    cin>>a;
+    cout<<a;
+    return 0;
+}
+
+//ASCII Value
+#include<iostream>
+using namespace std;
+int main()
+{
+    char a;
+    cin>>a;
+    int b=a;
+    cout<<b;
+    return 0;
+}
+
+//ASCII Value-II
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    char b=a;
+    cout<<b;
+    return 0;
+}
+
+//Float Input
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float a;
+    cin>>a;
+    cout<<fixed<<setprecision(6)<<a;
+    return 0;
+}
+
+//Float Formatting
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float a;
+    cin>>a;
+    cout<<fixed<<setprecision(6)<<a;
+    cout<<fixed<<setprecision(3)<<"\n"<<a;
+    cout<<fixed<<setprecision(2)<<"\n"<<a;
+    cout<<fixed<<setprecision(1)<<"\n"<<a;
+    
+}
+
+//Integer Input
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    cout<<a;
+    return 0;
+}
+
+//Round off
+#include<iostream>
+#include<math.h>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float a,f,d;
+    cin>>a;
+    int b=a;
+    cout<<b;
+    f=ceil(a);
+    d=floor(a);
+    cout<<fixed<<setprecision(1)<<"\n"<<f<<fixed<<setprecision(1)<<"\n"<<d;
+    return 0;
+}
+
+//Statistics
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a;
+    cin>>b;
+    cin>>c;
+    cout<<"1)Dead:"<<a<<"\n2)Injured:"<<b<<"\n3)Safe:"<<c<<"\nPlease help the people who are suffering!!!";
+    return 0;
+}
+
+//Welcome to Programming
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello People! Welcome to our desert.";
+    return 0;
+}
+
+
+//Stadium Name
+ #include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"MECON\nStadium";
+}
+
+//Cricketer's Age
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    cout<<"The cricketer age is "<<a;
+    
+    return 0;
+}
+
+//Bowling Speed
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    double a;
+    cin>>a;
+    cout<<fixed<<setprecision(2)<<a;
+}
+
+//Welcome Aliens
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello Aliens ! Welcome to our planet Earth.";
+    return 0;
+}
+
+
+//Dhoni's nick name!!!
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"M.S, MSD, Mahi, Thala, Ranchi Rocker, Captain Cool";
+    return 0;
+}
+
+
+    
