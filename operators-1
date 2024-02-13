@@ -1,0 +1,235 @@
+//Arithmetic Operator
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a;
+    cin>>b;
+    cout<<a<<" + "<<b<<" = "<<(a+b);
+    cout<<"\n"<<a<<" - "<<b<<" = "<<(a - b );
+    cout<<"\n"<<a<<" * "<<b<<" = "<<(a*b);
+    cout<<"\n"<<a<<" / "<<b<<" = "<<(a/b);
+    cout<<"\n"<<a<<" % "<<b<<" = "<<(a%b);
+}
+
+
+//Business Proposal
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    int p,r,y;
+    float i,a,d,f;
+    cin>>p;
+    cin>>y;
+    cin>>r;
+    i=(p*r*y)/100;
+    a=i+p;
+    d=0.02*i;
+    f=a-d;
+    cout<<fixed<<setprecision(2)<<i<<"\n"<<fixed<<setprecision(2)<<a<<"\n"<<fixed<<setprecision(2)<<d<<"\n"<<fixed<<setprecision(2)<<f;
+   
+    return 0;
+
+
+//Football Stadium
+#include<iostream>
+using namespace std;
+int main()
+{
+    int len,bread,quant,final;
+    cin>>len>>bread;
+    final=2*(len+bread);
+    quant=len*bread;
+    cout<<final;
+    cout<<"\n"<<quant;
+}
+
+//Culturals Training
+#include<iostream>
+using namespace std;
+int main()
+{
+    
+    int stud, team,int1,int2;
+    cin>>stud>>team;
+    int1=stud/team;
+    int2=stud-(team*int1);
+    cout<<int1<<"\n"<<int2;
+    return 0;
+    
+}
+
+//Paper Bags Agency
+#include<iostream>
+using namespace std;
+int main()
+{
+    int w,x,y,wages,p,t,u,profit;
+    cin>>w>>x>>y;
+    wages=100;
+    p=w*y;//1000
+    t=p+wages;//1100
+    u=x*w;//2000
+    profit=u-t;
+    cout<<profit;
+}
+
+
+//Team Flash
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float x1,y1,x2,y2;
+    
+    cin>>x1>>y1>>x2>>y2;
+    cout<<fixed<<setprecision(1)<<((x1+x2)/2);
+    cout<<"\n"<<fixed<<setprecision(1)<<((y1+y2)/2);
+    return 0;
+}
+
+//The Chronicles of Narnia
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a;
+    b=a%10;
+    c=a/10;
+    cout<<c+b;
+}
+
+//Romans VS Greeks
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x,y,len,m;
+    cin>>x>>y>>len;
+    m=len/2;
+    cout<<(x+m)<<" "<<(y+m);
+    
+    return 0;
+}
+
+//New Member in Team Flash
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float x1,y1,x2,y2,x3,y3;
+    cin>>x1>>y1>>x2>>y2>>x3>>y3;
+    cout<<fixed<<setprecision(1)<<(x1+x2+x3)/3;
+    cout<<"\n"<<fixed<<setprecision(1)<<(y1+y2+y3)/3;
+    return 0;
+}
+
+
+//The Discount
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float it1,it2,amount,disprice,d,dis;
+    cin>>it1>>it2>>dis;
+    amount=it1+it2;
+    d=(dis/100)*amount;
+    disprice=amount-d;
+    cout<<fixed<<setprecision(2)<<amount<<"\n"<<fixed<<setprecision(2)<<disprice<<"\n"<<fixed<<setprecision(2)<<d;
+    return 0;
+}
+
+//Treasure Hunt
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    int gold,finn,stone,finns,stones,m,n;
+    cin>>gold>>finn>>stone;
+    finns=(finn*gold)/100;
+    stones=((gold-finns)*stone)/100;
+    m=gold-(finns+stones);
+    n=m/3;//0.84
+    
+    cout<<finns<<"\n"<<stones<<"\n"<<n;
+    return 0;
+}
+
+
+//Binfon a Tribal
+#include<iostream>
+using namespace std;
+int main()
+{
+    int days,year,y,w,y1,w1;
+   
+    cin>>days;
+    year=365;
+    y=days/year;
+    y1=days%year;
+    w=y1/7;
+    w1=y1%7;
+    
+    
+    cout<<y<<"\n"<<w<<"\n"<<w1;
+    
+    
+    return 0;
+}
+
+
+//The Baggings
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int x,y,a,b,c;
+    cin>>x>>y;
+    a=pow((x-3),2);
+    b=pow((y-4),2);
+    c=sqrt(a+b);
+    cout<<c;
+    
+    
+    
+    
+    return 0;
+}
+
+
+//Chill Factor
+#include<iostream>
+#include<iomanip>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int temp,wind;
+    float wcf;
+    cin>>temp>>wind;
+    wcf=(35.74+(0.6215*temp)+((0.4275*temp)-35.75)*pow(wind,0.16));
+    cout<<fixed<<setprecision(2)<<wcf;
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
