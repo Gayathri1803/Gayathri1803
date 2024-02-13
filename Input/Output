@@ -187,5 +187,23 @@ int main()
     return 0;
 }
 
+//Dhoni's Family!!!
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"M. S. Dhoni\nFather: Mr. Pan Singh\nMother: Mrs. Devki Devi\nSibings: Narendra Singh and Jayanti Gupta";
+}
+
+//Dhoni's Endorsements!!!
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Pepsico\nAIRCEL\nCommunications\nTitan\nTVS\nMotors\nBoost\nReebok\nVideocon\nGE Money";
+}
+
+
+
 
     
