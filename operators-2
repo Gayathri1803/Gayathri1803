@@ -1,0 +1,164 @@
+//Sum and Difference
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,sum,diff;
+    cin>>a>>b;
+    sum=a+b;
+    diff=a-b;
+    cout<<sum<<"\n"<<diff;
+    
+}
+
+//Product and Division
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,prod,quot,rem;
+    cin>>a>>b;
+    prod=a*b;
+    quot=a/b;
+    rem=a%b;
+    cout<<prod<<"\n"<<quot<<"\n"<<rem;
+}
+
+
+//Swapping two numbers
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a>>b;
+    c=a;
+    a=b;
+    b=c;
+    cout<<a;
+    cout<<"\n"<<b;
+}
+
+
+//Swapping two numbers without third variable
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    cout<<a<<
+    "\n"<<b;
+    
+}
+
+//Average Calculation
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float a,b,c,d,e,avg;
+    cin>>a>>b>>c>>d>>e;
+    avg=(a+b+c+d+e)/5;
+    cout<<fixed<<setprecision(2)<<avg;
+}
+
+
+Area Calculation
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    int sq,lenrec,brerec,a,a1;
+    float a2,r;
+    cin>>sq>>lenrec>>brerec>>r;
+    a=sq*sq;
+    a1=lenrec*brerec;
+    a2=3.14*r*r;
+    cout<<a<<"\n"<<a1<<"\n"<<fixed<<setprecision(2)<<a2;
+    
+}
+
+
+Power of a number
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int X,N;
+    cin>>X>>N;
+    cout<<pow(X,N);
+}
+
+Alice in Wonderland
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,b,c;
+    cin>>n;
+    b=n%10;
+    c=n/10;
+    cout<<"Alice must go in path-"<<b+c;
+}
+
+Simple Interest
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    int p,y;
+    float r,s;
+    cin>>p>>y>>r;
+    s=(p*y*r)/100;
+    cout<<fixed<<setprecision(2)<<s;
+    
+}
+
+3 idiots
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float x1,y1,x2,y2;
+    float x,y;
+    cin>>x1>>y1>>x2>>y2;
+    x=(x1+x2)/2;
+    y=(y1+y2)/2;
+    cout<<"Binoy's house is located at ("<<fixed<<setprecision(1)<<x<<","<<fixed<<setprecision(1)<<y<<")";
+    
+}
+
+
+spliting into teams
+#include<iostream>
+using namespace std;
+int main()
+{
+    int stud,teams,s,l;
+    cin>>stud>>teams;
+    s=stud/teams;//7
+    l=stud-(teams*s);
+    cout<<"The number of students in each team is "<<s<<" and left out is "<<l;
+}
+
+
+Ternary Operator
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    cout<<(n%2==0?"Even":"Odd");
+    
+    
+}
