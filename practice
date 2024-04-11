@@ -40,3 +40,23 @@ int main() {
 printf("\n%d %d",a,b);
    
 }
+
+//structure
+#include <stdio.h>
+#include <string.h>
+struct book
+{
+    int no;
+    float price;
+    char name[50];
+};
+int main()
+{
+    struct book a;
+    a.no=7;
+    a.price=50.07;
+    strcpy(a.name,"Harry potter");
+    printf("%d\n",a.no);
+    printf("%f\n",a.price);
+    printf("%s\n",a.name);
+}
