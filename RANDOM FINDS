@@ -25,3 +25,23 @@ int main() {
     }
     return 0;
 }
+//to calculate the number of occurrences of a digit 'x' in the digits of numbers lying in the range between ‘I’ and 'u' both inclusive, and return the same. 
+#include <stdio.h>
+int main() {
+    int a,b,n,count=0;
+    scanf("%d %d %d",&a,&b,&n);
+    for(int i=a;i<=b;i++)
+    {
+        int temp=i;
+        while(temp!=0)
+        {
+            if(temp%10==n)
+            {
+                count++;
+            }
+            temp=temp/10;
+        }
+    }
+    printf("%d",count);
+    return 0;
+}
